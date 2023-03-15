@@ -156,7 +156,7 @@
         double futureSalaryKristina=salaryKristina*0.1+salaryKristina;
         System.out.println("Теперь зарплата Кристины " +futureSalaryKristina+ " рублей в месяц");
         double futureSalaryKristinaPerYear=futureSalaryKristina*12;
-        System.out.println("Теперь Зарплата Кристины = " +futureSalaryKristinaPerYear+ " рублей в год");
+        System.out.println("Теперь Зарплата Кристины = " +futureSalaryKristinaPerYear+ " рублей в год.");
         double theAnnualIncomeOfTheKristinaHasGrown =futureSalaryKristinaPerYear-salaryKristinaPerYear;
         System.out.println("Годовой доход Кристины вырос на  " +theAnnualIncomeOfTheKristinaHasGrown+ " рублей.");
     }
