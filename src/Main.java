@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
+    public class Main {
+        public static void main(String[] args) {
         task1();
         task2();
         task3();
@@ -13,7 +13,7 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1, Объявить переменные");
-        byte A;
+        byte a;
         short b;
         short b2;
         int c;
@@ -26,8 +26,8 @@ public class Main {
     public static void task2() {
         System.out.println("Задача 2, Инициализируйте переменные");
 
-        byte A = 67;
-        System.out.println(A);
+        byte a = 67;
+        System.out.println(a);
         short b = -159;
         System.out.println(b);
         short b2 = 569;
@@ -135,31 +135,30 @@ public class Main {
         System.out.println("Зарплата Дениса = " +salaryDenis+ " рублей в месяц.");
         int salaryKristina=76230;
         System.out.println("Зарплата Кристины = " +salaryKristina+ " рублей в месяц");
-        double futureSalaryMasha = salaryMasha*0.1+salaryMasha;
-        System.out.println("Будущая зарплата Маши  " +futureSalaryMasha+ " рублей в месяц");
-        double futureSalaryDenis = salaryDenis*0.1+salaryDenis;
-        System.out.println("Будущая зарплата Дениса " +futureSalaryDenis+ " рублей в месяц");
-        double futureSalaryKristina=salaryKristina*0.1+salaryKristina;
-        System.out.println("Будущая зарплата Кристины " +futureSalaryKristina+ " рублей в месяц");
         int salaryMashaPerYear=salaryMasha*12;
         System.out.println("Зарплата Маши = " +salaryMashaPerYear+ " рублей в год.");
         int salaryDenisPerYear=salaryDenis*12;
         System.out.println("Зарплата Дениса = " +salaryDenisPerYear+ " рублей в год.");
         int salaryKristinaPerYear=salaryKristina*12;
         System.out.println("Зарплата Кристины = " +salaryKristinaPerYear+ " рублей в год");
+        double futureSalaryMasha = salaryMasha*0.1+salaryMasha;
+        System.out.println("Теперь, зарплата Маши  " +futureSalaryMasha+ " рублей в месяц");
         double futureSalaryMashaPerYear=futureSalaryMasha*12;
-        System.out.println("Будущая Зарплата Маши = " +futureSalaryMashaPerYear+ " рублей в год.");
+        System.out.println("Теперь Зарплата Маши = " +futureSalaryMashaPerYear+ " рублей в год.");
+        double theAnnualIncomeOfTheMashaHasGrown=futureSalaryMashaPerYear-salaryMashaPerYear;
+        System.out.println("Годовой доход Маши вырос на  " +theAnnualIncomeOfTheMashaHasGrown+ " рублей.");
+        double futureSalaryDenis = salaryDenis*0.1+salaryDenis;
+        System.out.println("Теперь зарплата Дениса " +futureSalaryDenis+ " рублей в месяц");
         double futureSalaryDenisPerYear=futureSalaryDenis*12;
-        System.out.println("Будущая Зарплата Дениса = " +futureSalaryDenisPerYear+ " рублей в год.");
+        System.out.println("Теперь Зарплата Дениса = " +futureSalaryDenisPerYear+ " рублей в год.");
+        double theAnnualIncomeOfTheDenisHasGrown=futureSalaryDenisPerYear-salaryDenisPerYear;
+        System.out.println("Годовой доход Дениса вырос на  " +theAnnualIncomeOfTheDenisHasGrown+ " рублей.");
+        double futureSalaryKristina=salaryKristina*0.1+salaryKristina;
+        System.out.println("Теперь зарплата Кристины " +futureSalaryKristina+ " рублей в месяц");
         double futureSalaryKristinaPerYear=futureSalaryKristina*12;
-        System.out.println("Будущая Зарплата Кристины = " +futureSalaryKristinaPerYear+ " рублей в год");
-
-
-
-
-
-
-
+        System.out.println("Теперь Зарплата Кристины = " +futureSalaryKristinaPerYear+ " рублей в год");
+        double theAnnualIncomeOfTheKristinaHasGrown =futureSalaryKristinaPerYear-salaryKristinaPerYear;
+        System.out.println("Годовой доход Кристины вырос на  " +theAnnualIncomeOfTheKristinaHasGrown+ " рублей.");
     }
 
   }
