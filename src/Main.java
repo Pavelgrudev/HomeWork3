@@ -13,13 +13,18 @@
 
     public static void task1() {
         System.out.println("Задача 1, Объявить переменные");
-        byte a;
-        short b;
-        short b2;
-        int c;
-        long d;
-        float e;
-        double f;
+        byte a = -128;
+        System.out.println(a);
+        short b =32767;
+        System.out.println(b);
+        int c = 2147483647;
+        System.out.println(c);
+        long d = 123457777777l;
+        System.out.println(d);
+        float e =3.4555555f;
+        System.out.println(e);
+        double f =9.5555555555555555;
+        System.out.println(f);
 
     }
 
