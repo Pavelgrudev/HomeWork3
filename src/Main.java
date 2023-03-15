@@ -19,7 +19,7 @@
         System.out.println(b);
         int c = 2147483647;
         System.out.println(c);
-        long d = 1234566666666l;
+        long d = 123457777777l;
         System.out.println(d);
         float e =3.4555555f;
         System.out.println(e);
