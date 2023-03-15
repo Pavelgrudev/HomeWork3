@@ -76,13 +76,13 @@
         System.out.println("Задача 5, рассчитать кол-во Классов, белой и коричневой краски.");
 
         int totalPaintCans = 120;
-        System.out.println(totalPaintCans);
+        System.out.println(totalPaintCans+ " банок");
         int WhitePaintForGrade1 = 2;
-        System.out.println(WhitePaintForGrade1);
+        System.out.println(WhitePaintForGrade1+ " банок");
         int BrownPaintForGrade1 = 4;
-        System.out.println(BrownPaintForGrade1);
+        System.out.println(BrownPaintForGrade1+ " банок");
         int totalPaintFor1Class = (BrownPaintForGrade1 + WhitePaintForGrade1);
-        System.out.println(totalPaintFor1Class);
+        System.out.println(totalPaintFor1Class+ " банок");
         int totalClassesInTheSchool = (totalPaintCans / (BrownPaintForGrade1 + WhitePaintForGrade1));
         System.out.println("В школе всего " + totalClassesInTheSchool + " классов");
         int needCansOfBrownPaint = totalClassesInTheSchool * BrownPaintForGrade1;
@@ -95,13 +95,13 @@
         System.out.println("Задача 6, рассчитать кол-во граммов и килограммов");
 
         short bananes = 5 * 80;
-        System.out.println(bananes);
+        System.out.println("Всего бананов " +bananes);
         short milk = 105 * 2;
-        System.out.println(milk);
+        System.out.println("Всего молока " +milk);
         short iceCreamBriquette = 100 * 2;
-        System.out.println(iceCreamBriquette);
+        System.out.println("Всего мороженого " +iceCreamBriquette);
         short rawEggs = 70 * 4;
-        System.out.println(rawEggs);
+        System.out.println("Всего сырых яиц " +rawEggs);
         int sportsBreakfast = bananes + milk + iceCreamBriquette + rawEggs;
         System.out.println("Спортивный завтрак весит " + sportsBreakfast + "  Граммов. ");
         float SportsBreakfastKilograms = sportsBreakfast / 1000f;
@@ -112,11 +112,11 @@
         System.out.println("Задача 7, сколько в среднем уйдёт дней для похудения");
 
         float minimalWeightLossPerDay=0.25f;
-        System.out.println(minimalWeightLossPerDay);
+        System.out.println(minimalWeightLossPerDay + "кг.");
         float maximalWeightLossPerDay=0.5f;
-        System.out.println(maximalWeightLossPerDay);
+        System.out.println(maximalWeightLossPerDay+ "кг.");
         byte loseWeight=7;
-        System.out.println(loseWeight);
+        System.out.println(loseWeight+ " кг." );
         float slowWeightLoss=loseWeight/minimalWeightLossPerDay;
         System.out.println("Для медленного похудения требуется " +slowWeightLoss+  " дней");
         float fastWeightLoss=loseWeight/maximalWeightLossPerDay;
